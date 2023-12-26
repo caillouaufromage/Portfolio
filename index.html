@@ -1,0 +1,110 @@
+<!-- MON SITE INTERNET PORTEFOLIO : index -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Pierre AUBRY - Portfolio </title>
+    <link rel="icon" href="logos/logo_site.png">
+<!--     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+ 
+<body>
+
+<div id="cursor"></div>
+<div id="accueil"></div>
+<table>
+    <tr>
+        <td width="19%" style="position:fixed;">
+
+
+        <!-- MENU DEROULANT -->
+        <div class="container">
+            <a href="#accueil"><button class="btn"><img src="logos/logo_homewhite.png" style="width: 15px;"></button></a>
+            <a href="#portfolio"><button class="btn">MES PROJETS</button></a>
+            <a href="#contact"><button class="btn">A PROPOS DE MOI</button></a>
+            <div class= "ctc-container">
+                <a href="documents/cv.pdf" target="_blank"><button class="ctc"><img src="logos/logo_cv.png"></button></a>      
+                <br><a href="https://github.com/caillouaufromage" target="_blank"><button class="ctc"><img src="logos/github-mark-white.png"></button></a>
+                <br><a href="mailto:pierreaubryscolaire@gmail.com, pierre.aubry@etu.sorbonne-universite.fr"><button class="ctc"><img src="logos/logo_email.png"></button></a>
+                <br><a href="https://www.linkedin.com/in/pierre-aubry-a737871b7/?originalSubdomain=fr" target="_blank"><button class="ctc"><img src="logos/logo_linkedin.png"></button></a>
+            </div>
+        </div>
+
+        </td>
+        <td>
+            <!-- EN-TÊTE -->
+            <div class="navtop">
+                    <h2 id=titre style="font-size:48px"><a href="#accueil">Portfolio de Pierre Aubry</a></h2>
+                    <h2 id=titre2>&Eacute;tudiant en M1 Syst&egrave;mes Embarqu&eacute;s &agrave; Sorbonne Universit&eacute;</h2>
+            </div>
+        </td>
+    </tr>
+</table>
+
+
+<br>
+
+
+<!-- include the content of mesprojets.html -->
+<div id="portfolio">
+        <!-- MES PROJETS -->
+        <div class="indent_content">
+            <br>
+            <h3 id=rubrique> Mes projets </h3>
+            <hr>
+            <!-- JAVASCRIPT CREATION/APPEL DES FONCTIONS PROJETS -->
+            <script src="javascript/mesprojetsJS.js" defer></script>
+        </div>
+</div>
+
+<br>
+
+<!-- include the content of contact.html -->
+    <div id="contact">
+
+    <!-- MES CONTACTS -->
+    <div class="indent_content">
+            <br>
+            <h3 id=rubrique> A propos de moi </h3>
+            <hr>
+            <br>
+            <div id="texte_presentation">
+                <p>
+                    Bonjour &agrave; tous!<br><br>
+                    Je m'appelle Pierre et suis &eacute;tudiant au <a href="https://sciences.sorbonne-universite.fr/formation-sciences/masters/master-informatique/parcours-sesi" target="_blank"><b>M1 SESI (Syst&egrave;mes Electroniques et Syst&egrave;mes Informatiques)</b></a> &agrave; Sorbonne Universit&eacute;.<br><br>
+                    Au fil de mon cursus, j'ai acquis de <b>nombreuses comp&eacute;tences</b> dans des domaines tr&egrave;s vari&eacute;s de l'informatique et de la programmation.
+                    De l'<b>analyse de donn&eacute;es</b> &agrave; la conception de <b>syst&egrave;mes embarqu&eacute;s</b>, en passant par la <b>programmation web</b>, j'ai pu explorer de nombreux domaines et acqu&eacute;rir de nombreuses comp&eacute;tences.<br><br>
+                    Aussi, je suis tr&egrave;s heureux de vous pr&eacute;senter mon portfolio et j'esp&egrave;re que vous pourrez y d&eacute;couvrir une partie de mes r&eacute;alisations.<br>
+                    N'h&eacute;sitez pas &agrave; me contacter si vous avez des questions ou si vous souhaitez en savoir plus sur mes projets.<br><br>
+                    <br>
+                </p>
+            </div>
+            <br><br>
+        </div>
+        <!-- on affiche la photo "images/profilepic.jpeg" -->
+        <img id="profilepic" src="images/vrac/profilepic.jpeg" alt="Photo de profil">
+        <br>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <p>Pierre AUBRY - 2023</p>
+</footer>
+
+<div class="fullscreen" id="fullscreen">
+    <img src="" alt="" />
+</div>
+
+
+<!-- JAVASCRIPT CURSEUR -->
+<script src="javascript/curseurJS.js"></script>
+
+</body>
+
+</html>
+
