@@ -142,6 +142,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 // Appel de la fonction avec les données
+
 /* GEOMETRY DASH */
 afficherProjet(
     "logos/logo_geometrydash.png",
@@ -156,6 +157,19 @@ afficherProjet(
     ["forestDash/fd1.JPG","forestDash/fd2.png","forestDash/fd3.png"]
 );
 
+/* BIOINFO GENES CANCER */
+afficherProjet(
+    "logos/logo_bioinfo.png",
+    "Bioinformatique : Gènes et Cancer",
+    "documents/biostatcancerpoumonV2.ipynb",
+    "documents/biostatcancerpoumonV2.ipynb",
+    "fichiers/BiostatCancerPoumon-main.zip",
+    "seul",
+    "On explore plusieurs dataset d'expressions géniques de patients atteints de cancer du poumon ou en bonne santé. L'objectif est de réaliser une analyse statistique afin de determiner un coefficient de correlation entre ces mêmes gènes et la présence ou non du cancer. Le code créé automatiquement plusieurs fichiers excels avec ces résultats.",
+    "projet perso",
+    ["Biostatistique", "Python", "Jupyter Notebook"],
+    []
+);
 
 /* ETRE OU NE PAS ETRE */
     afficherProjet(
